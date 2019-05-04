@@ -7,12 +7,15 @@ public class Ground : MonoBehaviour
 {
     // Scroll main texture based on time
     [SerializeField] private ScriptableObjectFloat scrollSpeed;
+    public Texture[] images;
 
     Renderer rend;
 
     void Start()
     {
         rend = GetComponent<Renderer>();
+        int BackgroundImage = Random.Range(0, images.Length);
+        rend.material.mainTexture = images[BackgroundImage];
     }
 
     void Update()
