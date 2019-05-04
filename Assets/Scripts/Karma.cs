@@ -6,6 +6,7 @@ public interface Karma
 {  
 
     float KarmaChange { get;}
+    float HealthChange { get; }
 
     void Hit();
 

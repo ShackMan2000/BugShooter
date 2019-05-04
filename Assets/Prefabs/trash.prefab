@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5056521664437795792}
   - component: {fileID: 5056521664437795793}
   - component: {fileID: 1349219460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: trash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: {fileID: 11400000, guid: 1d3f2e1c5254f5a419c9bcfa6ee7f1e5, type: 2}
+  speedAdjustment: 8.8

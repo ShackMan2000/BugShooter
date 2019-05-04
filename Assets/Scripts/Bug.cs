@@ -8,20 +8,28 @@ public class Bug : MonoBehaviour
     [SerializeField]
     public ScriptableObjectFloat health;
     [SerializeField]
-    public ScriptableObjectFloat karma;
-    
+    public ScriptableObjectFloat karmaValue;
+
 
 
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       
-        var karma = collision.gameObject.GetComponent<Karma>();
-        if(karma == null)
-            return;
+        if (collision.collider.CompareTag("enemy"))
+        {
+            health.currentValue -= collision.gameObject.GetComponent<Enemy>().damage;
+        }
+        else
+        {
+            var objectsKarma = collision.gameObject.GetComponent<Karma>();
+            if (objectsKarma == null)
+                return;
 
-        health.currentValue += karma.KarmaChange;
-        karma.Hit();
+            karmaValue.currentValue += objectsKarma.KarmaChange;
+            objectsKarma.Hit();
+
+        }
+
     }
 }

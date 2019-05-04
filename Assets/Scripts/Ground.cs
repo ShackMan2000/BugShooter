@@ -10,6 +10,8 @@ public class Ground : MonoBehaviour
 
     Renderer rend;
 
+    private float backOffset;
+
     void Start()
     {
         rend = GetComponent<Renderer>();
@@ -17,7 +19,8 @@ public class Ground : MonoBehaviour
 
     void Update()
     {
-        float offset = Time.time * scrollSpeed.currentValue;
-        rend.material.SetTextureOffset("_MainTex", new Vector2(0, -offset));
+        backOffset -= Time.deltaTime * scrollSpeed.currentValue;
+      //  float offset = Time.time * scrollSpeed.currentValue;
+        rend.material.SetTextureOffset("_MainTex", new Vector2(0, backOffset));
     }
 }
