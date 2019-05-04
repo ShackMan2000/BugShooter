@@ -5,21 +5,12 @@ using UnityEngine;
 public class Bug : MonoBehaviour
 {
 
-    public float currentHealth;
+    [SerializeField]
+    public ScriptableObjectFloat health;
+    [SerializeField]
+    public ScriptableObjectFloat karma;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
 
 
 
@@ -30,7 +21,7 @@ public class Bug : MonoBehaviour
         if(karma == null)
             return;
 
-        currentHealth += karma.KarmaChange;
+        health.currentValue += karma.KarmaChange;
         karma.Hit();
     }
 }
