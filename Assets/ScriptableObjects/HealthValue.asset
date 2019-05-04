@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: HealthValue
   m_EditorClassIdentifier: 
   currentValue: 0
-  maxValue: 0
+  maxValue: 20
