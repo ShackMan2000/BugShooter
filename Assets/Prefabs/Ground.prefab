@@ -198,3 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: {fileID: 11400000, guid: 1d3f2e1c5254f5a419c9bcfa6ee7f1e5, type: 2}
+  images:
+  - {fileID: 2800000, guid: b1bf77c85bc87b44f8231605748c2b76, type: 3}
+  - {fileID: 2800000, guid: fe1221309f0d1e04c88ed730fcb94d0a, type: 3}
+  - {fileID: 2800000, guid: b9bf32e5f8bd23e40a671eef3c6f5a6a, type: 3}
+  - {fileID: 2800000, guid: 9db26ebe8235b5e42924bb2c54ad0c80, type: 3}
+  - {fileID: 2800000, guid: 88f76f18520011749b20fb0977ee6c3b, type: 3}
