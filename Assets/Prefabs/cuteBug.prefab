@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2800838057086211658}
   - component: {fileID: 2800838057086211657}
   - component: {fileID: 6148597680981671917}
+  - component: {fileID: 8884728506318362699}
   m_Layer: 0
   m_Name: cuteBug
   m_TagString: Untagged
@@ -109,3 +110,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0efd52acc8d62444691595099474190c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8884728506318362699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2800838057086212021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f7f75a509f83a4dafdc687f8dcb7cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: {fileID: 11400000, guid: 1d3f2e1c5254f5a419c9bcfa6ee7f1e5, type: 2}

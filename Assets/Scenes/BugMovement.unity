@@ -743,6 +743,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trashPrefab: {fileID: 5056521664437795630, guid: 0bbbe5ee030bf384fb7a9390e56408f6,
     type: 3}
+  bugPrefab: {fileID: 2800838057086212021, guid: 23c681c9ae4145d45a91e9361739ebe4,
+    type: 3}
+  mainCamera: {fileID: 105693796}
+  minSpawntime: 0.1
+  maxSpawnTime: 0.2
 --- !u!4 &1953000470
 Transform:
   m_ObjectHideFlags: 0

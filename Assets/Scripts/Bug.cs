@@ -9,8 +9,8 @@ public class Bug : MonoBehaviour
     public ScriptableObjectFloat health;
     [SerializeField]
     public ScriptableObjectFloat karma;
-
     
+
 
 
 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5056521664437795795}
   - component: {fileID: 5056521664437795792}
   - component: {fileID: 5056521664437795793}
+  - component: {fileID: 1349219460}
   m_Layer: 0
   m_Name: trash
   m_TagString: Untagged
@@ -109,3 +110,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b44bcd00e026545952a279235ab6c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1349219460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056521664437795630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f7f75a509f83a4dafdc687f8dcb7cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: {fileID: 11400000, guid: 1d3f2e1c5254f5a419c9bcfa6ee7f1e5, type: 2}
