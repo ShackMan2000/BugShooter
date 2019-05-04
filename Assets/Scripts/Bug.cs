@@ -30,7 +30,6 @@ public class Bug : MonoBehaviour
         if(karma == null)
             return;
 
-
         currentHealth += karma.KarmaChange;
         karma.Hit();
     }
