@@ -16,9 +16,11 @@ public class Bug : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("enemy"))
+        if (collision.gameObject.tag =="enemy")
         {
+       
             health.currentValue -= collision.gameObject.GetComponent<Enemy>().damage;
+            collision.gameObject.SetActive(false);
         }
         else
         {

@@ -47,7 +47,7 @@ public class TrashSpawner : MonoBehaviour
         }
         if (bugToEatCounter <= 0)
         {
-            trashCounter = Random.Range(minSpawntime, maxSpawnTime);
+            bugToEatCounter = Random.Range(minSpawntime, maxSpawnTime);
             SpawnFood();
         }
         if(enemyCounter <=0)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7593785510552013220}
   - component: {fileID: 8896166586917097001}
   - component: {fileID: 1882109417256775911}
+  - component: {fileID: 2814222188279606751}
   m_Layer: 0
   m_Name: enemy
   m_TagString: enemy
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalSpeed: 2
-  damage: 0
+  damage: 2
 --- !u!114 &1882109417256775911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,3 +110,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: {fileID: 11400000, guid: 1d3f2e1c5254f5a419c9bcfa6ee7f1e5, type: 2}
   speedAdjustment: 12
+--- !u!58 &2814222188279606751
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2966614644071498474}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3.13
